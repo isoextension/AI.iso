@@ -4,7 +4,7 @@ async function generateText() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': secrets.OPENAI_API_KEY
+            'Authorization': secrets.OPENAIKEY
         },
         body: JSON.stringify({
             model: 'text-davinci-003',
